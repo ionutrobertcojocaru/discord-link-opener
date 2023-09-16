@@ -20,11 +20,11 @@ print(colored("Password taken", 'red'))
 #Initializing Browser with options
 
 options = webdriver.ChromeOptions() 
-options.add_argument("user-data-dir=C:\\Users\\yyxxz\\AppData\\Local\\Google\\Chrome\\User Data")
+options.add_argument("user-data-dir=C:\\Users\\YOURUSERNAMEWINDOWS\\AppData\\Local\\Google\\Chrome\\User Data")
 options.add_argument("profile-directory=Profile 1")
 
 browser = webdriver.Chrome(executable_path=r".\\chromedriver.exe", chrome_options=options, service_args='')
-channel = "https://discord.com/channels/824702272385843233/824705177629098014"
+channel = "Link of the server and channel"
 browser.get(channel)
 print(colored("Browser opened", 'green'))
 
